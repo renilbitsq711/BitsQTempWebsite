@@ -287,10 +287,14 @@
 /*** Team ***/
 .team-item img {
     transition: .5s;
+   
 }
 
 .team-item:hover img {
     transform: scale(1.1);
+    
+
+
 }
 
 
@@ -366,6 +370,16 @@
     border-color: var(--primary);
 }
 
+/*** Instructors section ***/
+.teach{
+    /* border: 5px solid rgb(76, 64, 242);      */
+    height: 350px;
+    width: 100%;
+}
+
+.teachdet{
+    height: 130px;
+}
 
 /*** Footer ***/
 .footer .btn.btn-social {
@@ -432,3 +446,5 @@
     padding-right: 0;
     border-right: none;
 }
+
+
