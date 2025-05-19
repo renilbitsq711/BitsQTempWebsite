@@ -107,3 +107,19 @@
     
 })(jQuery);
 
+
+
+function sendToWhatsApp() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var subject = document.getElementById("subject").value;
+  var message = document.getElementById("message").value;
+
+
+  var message = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage:${message}`;
+  
+  var whatsappURL = "https://wa.me/918050389898?text=" + message;
+
+  window.open(whatsappURL, "_blank");
+}
+
